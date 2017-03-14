@@ -7,13 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C4002E241E680CE9002A8547 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4002E231E680CE9002A8547 /* Assets.xcassets */; };
 		C4296A541E37B12200657942 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4296A531E37B12200657942 /* AppDelegate.swift */; };
-		C4296A561E37B12200657942 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4296A551E37B12200657942 /* ViewController.swift */; };
+		C4296A561E37B12200657942 /* NormalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4296A551E37B12200657942 /* NormalViewController.swift */; };
 		C4296A591E37B12200657942 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4296A571E37B12200657942 /* Main.storyboard */; };
-		C4296A5B1E37B12200657942 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4296A5A1E37B12200657942 /* Assets.xcassets */; };
 		C4296A5E1E37B12200657942 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4296A5C1E37B12200657942 /* LaunchScreen.storyboard */; };
 		C4296A691E37B12200657942 /* gloveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4296A681E37B12200657942 /* gloveTests.swift */; };
 		C4296A741E37B12200657942 /* gloveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4296A731E37B12200657942 /* gloveUITests.swift */; };
+		C47AD77D1E62CB300024513B /* BabyBluetooth.m in Sources */ = {isa = PBXBuildFile; fileRef = C47AD76C1E62CB300024513B /* BabyBluetooth.m */; };
+		C47AD77E1E62CB300024513B /* BabyCallback.m in Sources */ = {isa = PBXBuildFile; fileRef = C47AD76E1E62CB300024513B /* BabyCallback.m */; };
+		C47AD77F1E62CB300024513B /* BabyCentralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C47AD7701E62CB300024513B /* BabyCentralManager.m */; };
+		C47AD7801E62CB300024513B /* BabyDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = C47AD7721E62CB300024513B /* BabyDefine.m */; };
+		C47AD7811E62CB300024513B /* BabyOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = C47AD7741E62CB300024513B /* BabyOptions.m */; };
+		C47AD7821E62CB300024513B /* BabyPeripheralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C47AD7761E62CB300024513B /* BabyPeripheralManager.m */; };
+		C47AD7831E62CB300024513B /* BabyRhythm.m in Sources */ = {isa = PBXBuildFile; fileRef = C47AD7781E62CB300024513B /* BabyRhythm.m */; };
+		C47AD7841E62CB300024513B /* BabySpeaker.m in Sources */ = {isa = PBXBuildFile; fileRef = C47AD77A1E62CB300024513B /* BabySpeaker.m */; };
+		C47AD7851E62CB300024513B /* BabyToy.m in Sources */ = {isa = PBXBuildFile; fileRef = C47AD77C1E62CB300024513B /* BabyToy.m */; };
+		C4AC445B1E40768B005978D0 /* GloveModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC445A1E40768B005978D0 /* GloveModel.swift */; };
+		C4AC44601E40A5B1005978D0 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AC445F1E40A5B1005978D0 /* TabBarViewController.swift */; };
+		C4AC44631E40BD39005978D0 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4AC44621E40BD39005978D0 /* MessageUI.framework */; };
+		C4B3BE111E3C52FA0068F457 /* TrainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B3BE101E3C52FA0068F457 /* TrainViewController.swift */; };
+		C4B3BE131E3C53330068F457 /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B3BE121E3C53330068F457 /* UploadViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,11 +48,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C4002E231E680CE9002A8547 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4296A501E37B12200657942 /* glove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = glove.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4296A531E37B12200657942 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C4296A551E37B12200657942 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C4296A551E37B12200657942 /* NormalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormalViewController.swift; sourceTree = "<group>"; };
 		C4296A581E37B12200657942 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C4296A5A1E37B12200657942 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4296A5D1E37B12200657942 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4296A5F1E37B12200657942 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4296A641E37B12200657942 /* gloveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gloveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +61,30 @@
 		C4296A6F1E37B12200657942 /* gloveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gloveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4296A731E37B12200657942 /* gloveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gloveUITests.swift; sourceTree = "<group>"; };
 		C4296A751E37B12200657942 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C47AD76B1E62CB300024513B /* BabyBluetooth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyBluetooth.h; sourceTree = "<group>"; };
+		C47AD76C1E62CB300024513B /* BabyBluetooth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyBluetooth.m; sourceTree = "<group>"; };
+		C47AD76D1E62CB300024513B /* BabyCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyCallback.h; sourceTree = "<group>"; };
+		C47AD76E1E62CB300024513B /* BabyCallback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyCallback.m; sourceTree = "<group>"; };
+		C47AD76F1E62CB300024513B /* BabyCentralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyCentralManager.h; sourceTree = "<group>"; };
+		C47AD7701E62CB300024513B /* BabyCentralManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyCentralManager.m; sourceTree = "<group>"; };
+		C47AD7711E62CB300024513B /* BabyDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyDefine.h; sourceTree = "<group>"; };
+		C47AD7721E62CB300024513B /* BabyDefine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyDefine.m; sourceTree = "<group>"; };
+		C47AD7731E62CB300024513B /* BabyOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyOptions.h; sourceTree = "<group>"; };
+		C47AD7741E62CB300024513B /* BabyOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyOptions.m; sourceTree = "<group>"; };
+		C47AD7751E62CB300024513B /* BabyPeripheralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyPeripheralManager.h; sourceTree = "<group>"; };
+		C47AD7761E62CB300024513B /* BabyPeripheralManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyPeripheralManager.m; sourceTree = "<group>"; };
+		C47AD7771E62CB300024513B /* BabyRhythm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyRhythm.h; sourceTree = "<group>"; };
+		C47AD7781E62CB300024513B /* BabyRhythm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyRhythm.m; sourceTree = "<group>"; };
+		C47AD7791E62CB300024513B /* BabySpeaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabySpeaker.h; sourceTree = "<group>"; };
+		C47AD77A1E62CB300024513B /* BabySpeaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabySpeaker.m; sourceTree = "<group>"; };
+		C47AD77B1E62CB300024513B /* BabyToy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyToy.h; sourceTree = "<group>"; };
+		C47AD77C1E62CB300024513B /* BabyToy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyToy.m; sourceTree = "<group>"; };
+		C4AC445A1E40768B005978D0 /* GloveModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GloveModel.swift; sourceTree = "<group>"; };
+		C4AC445F1E40A5B1005978D0 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		C4AC44621E40BD39005978D0 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		C4B3BE101E3C52FA0068F457 /* TrainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TrainViewController.swift; path = ../TrainViewController.swift; sourceTree = "<group>"; };
+		C4B3BE121E3C53330068F457 /* UploadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
+		C4E6F5E21E65436A00C2464C /* glove-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "glove-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4AC44631E40BD39005978D0 /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +116,13 @@
 		C4296A471E37B12200657942 = {
 			isa = PBXGroup;
 			children = (
+				C4E6F5E21E65436A00C2464C /* glove-Bridging-Header.h */,
+				C47AD74D1E62C0620024513B /* blueTooth */,
 				C4296A521E37B12200657942 /* glove */,
 				C4296A671E37B12200657942 /* gloveTests */,
 				C4296A721E37B12200657942 /* gloveUITests */,
 				C4296A511E37B12200657942 /* Products */,
+				C4AC44611E40BD39005978D0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,9 +140,13 @@
 			isa = PBXGroup;
 			children = (
 				C4296A531E37B12200657942 /* AppDelegate.swift */,
-				C4296A551E37B12200657942 /* ViewController.swift */,
+				C4B3BE101E3C52FA0068F457 /* TrainViewController.swift */,
+				C4B3BE121E3C53330068F457 /* UploadViewController.swift */,
+				C4AC445A1E40768B005978D0 /* GloveModel.swift */,
+				C4AC445F1E40A5B1005978D0 /* TabBarViewController.swift */,
+				C4296A551E37B12200657942 /* NormalViewController.swift */,
+				C4002E231E680CE9002A8547 /* Assets.xcassets */,
 				C4296A571E37B12200657942 /* Main.storyboard */,
-				C4296A5A1E37B12200657942 /* Assets.xcassets */,
 				C4296A5C1E37B12200657942 /* LaunchScreen.storyboard */,
 				C4296A5F1E37B12200657942 /* Info.plist */,
 			);
@@ -123,6 +169,39 @@
 				C4296A751E37B12200657942 /* Info.plist */,
 			);
 			path = gloveUITests;
+			sourceTree = "<group>";
+		};
+		C47AD74D1E62C0620024513B /* blueTooth */ = {
+			isa = PBXGroup;
+			children = (
+				C47AD76B1E62CB300024513B /* BabyBluetooth.h */,
+				C47AD76C1E62CB300024513B /* BabyBluetooth.m */,
+				C47AD76D1E62CB300024513B /* BabyCallback.h */,
+				C47AD76E1E62CB300024513B /* BabyCallback.m */,
+				C47AD76F1E62CB300024513B /* BabyCentralManager.h */,
+				C47AD7701E62CB300024513B /* BabyCentralManager.m */,
+				C47AD7711E62CB300024513B /* BabyDefine.h */,
+				C47AD7721E62CB300024513B /* BabyDefine.m */,
+				C47AD7731E62CB300024513B /* BabyOptions.h */,
+				C47AD7741E62CB300024513B /* BabyOptions.m */,
+				C47AD7751E62CB300024513B /* BabyPeripheralManager.h */,
+				C47AD7761E62CB300024513B /* BabyPeripheralManager.m */,
+				C47AD7771E62CB300024513B /* BabyRhythm.h */,
+				C47AD7781E62CB300024513B /* BabyRhythm.m */,
+				C47AD7791E62CB300024513B /* BabySpeaker.h */,
+				C47AD77A1E62CB300024513B /* BabySpeaker.m */,
+				C47AD77B1E62CB300024513B /* BabyToy.h */,
+				C47AD77C1E62CB300024513B /* BabyToy.m */,
+			);
+			name = blueTooth;
+			sourceTree = "<group>";
+		};
+		C4AC44611E40BD39005978D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4AC44621E40BD39005978D0 /* MessageUI.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +272,8 @@
 				TargetAttributes = {
 					C4296A4F1E37B12200657942 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4A99BXHQRD;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					C4296A631E37B12200657942 = {
@@ -233,7 +314,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4296A5E1E37B12200657942 /* LaunchScreen.storyboard in Resources */,
-				C4296A5B1E37B12200657942 /* Assets.xcassets in Resources */,
+				C4002E241E680CE9002A8547 /* Assets.xcassets in Resources */,
 				C4296A591E37B12200657942 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +340,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4296A561E37B12200657942 /* ViewController.swift in Sources */,
+				C4AC445B1E40768B005978D0 /* GloveModel.swift in Sources */,
+				C4296A561E37B12200657942 /* NormalViewController.swift in Sources */,
+				C4B3BE131E3C53330068F457 /* UploadViewController.swift in Sources */,
+				C47AD7841E62CB300024513B /* BabySpeaker.m in Sources */,
+				C47AD7831E62CB300024513B /* BabyRhythm.m in Sources */,
+				C47AD77F1E62CB300024513B /* BabyCentralManager.m in Sources */,
+				C4AC44601E40A5B1005978D0 /* TabBarViewController.swift in Sources */,
+				C47AD77E1E62CB300024513B /* BabyCallback.m in Sources */,
+				C47AD7801E62CB300024513B /* BabyDefine.m in Sources */,
+				C47AD7821E62CB300024513B /* BabyPeripheralManager.m in Sources */,
+				C47AD7851E62CB300024513B /* BabyToy.m in Sources */,
+				C47AD77D1E62CB300024513B /* BabyBluetooth.m in Sources */,
 				C4296A541E37B12200657942 /* AppDelegate.swift in Sources */,
+				C4B3BE111E3C52FA0068F457 /* TrainViewController.swift in Sources */,
+				C47AD7811E62CB300024513B /* BabyOptions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,11 +506,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 4A99BXHQRD;
 				INFOPLIST_FILE = glove/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Leo.glove;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "glove-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -424,11 +524,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 4A99BXHQRD;
 				INFOPLIST_FILE = glove/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Leo.glove;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "glove-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -505,6 +610,7 @@
 				C4296A7A1E37B12200657942 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C4296A7B1E37B12200657942 /* Build configuration list for PBXNativeTarget "gloveTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +619,7 @@
 				C4296A7D1E37B12200657942 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C4296A7E1E37B12200657942 /* Build configuration list for PBXNativeTarget "gloveUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +628,7 @@
 				C4296A801E37B12200657942 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

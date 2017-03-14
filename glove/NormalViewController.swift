@@ -12,7 +12,7 @@ class NormalViewController: UIViewController {
     let babyBlueTooth = BabyBluetooth()
     let peripheralLocalName = "BTO5"  //蓝牙模块的名字
     let peripheralGlobalNmae = "BTO5"
-    let uuid = "FFE0"
+    let uuid = "FFE0"  //BTO5提供的一个服务的uuid
     var peripheral:CBPeripheral?
     var characteristic:CBCharacteristic?
     var service:CBService?

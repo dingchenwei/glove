@@ -266,7 +266,7 @@ class TrainViewController: UIViewController {
             return false;
         }
         
-        
+        //决定连接哪个设备
         self.babyBlueTooth.setFilterOnConnectToPeripherals { (name, adv, RSSI) -> Bool in
             if let name = adv?["kCBAdvDataLocalName"] as? String {
                 if (name == self.peripheralLocalName){

@@ -131,7 +131,7 @@ class TrainViewController: UIViewController {
 
     }
     
-    @IBOutlet weak var twoOutlet: UIButton!
+    @IBOutlet weak var twoOutlet: UIButton!  //press two
     @IBAction func twoDidPressed(_ sender: UIButton) {
         if(self.trainView.isOn){
             var completePercent = 0.5

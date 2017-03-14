@@ -10,7 +10,7 @@ import UIKit
 
 class NormalViewController: UIViewController {
     let babyBlueTooth = BabyBluetooth()
-    let peripheralLocalName = "BTO5"
+    let peripheralLocalName = "BTO5"  //蓝牙模块的名字
     let peripheralGlobalNmae = "BTO5"
     let uuid = "FFE0"
     var peripheral:CBPeripheral?
@@ -38,7 +38,7 @@ class NormalViewController: UIViewController {
     }
 
     
-    @IBOutlet weak var connectView: UISwitch!
+    @IBOutlet weak var connectView: UISwitch!  //slide bar
     @IBAction func connectStateDidChanged(_ sender: UISwitch) {
         if self.connectView.isOn{
             if self.peripheral?.state == CBPeripheralState.disconnected{
